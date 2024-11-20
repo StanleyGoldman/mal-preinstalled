@@ -9,7 +9,7 @@
 	"build": {
 		"dockerfile": "Dockerfile"
 	},
-	"postCreateCommand": "bootstrap",
+	"postCreateCommand": "../bootstrap",
 	// Configure tool-specific properties.
 	"customizations": {
 		// Configure properties specific to VS Code.
