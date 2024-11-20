@@ -1,0 +1,10 @@
+sudo apt update
+sudo apt-get install automake libtool make gcc pkg-config
+wget https://github.com/VirusTotal/yara/archive/refs/tags/v4.4.0.tar.gz
+mv v4.4.0.tar.gz yara-4.4.0.tar.gz
+tar -zxf yara-4.4.0.tar.gz
+cd yara-4.4.0
+./bootstrap.sh
+./configure
+make
+sudo make install
