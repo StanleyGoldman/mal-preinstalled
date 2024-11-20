@@ -16,5 +16,3 @@ RUN mkdir -p /tmp/yara-build && \
     make install && \
     cd / && \
     rm -rf /tmp/yara-build
-
-RUN go install github.com/chainguard-dev/malcontent/cmd/mal@latest
